@@ -5,8 +5,10 @@
   <body>
     <h1>Welcome to My Website!</h1>
     <p>This is some content on my website.</p>
+    
     <h2>Ad 1</h2>
     <iframe src="http://advertiser1.com/ad.html" width="300" height="250"></iframe>
+    
     <h2>Ad 2</h2>
     <ins class="adsbygoogle"
          style="display:block"
@@ -16,6 +18,7 @@
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    
     <h2>Ad 3</h2>
     <script type="text/javascript">
       var ad_id = "123456789";
@@ -23,18 +26,22 @@
       var ad_width = 300;
       var ad_height = 250;
     </script>
+
     <script type="text/javascript" src="http://advertiser2.com/ad.js"></script>
     <h2>Ad 4</h2>
-    <object data="http://advertiser3.com/ad.swf" type="application/x-shockwave-flash" width="300" height="250">
+    <object data="http://advertiser3.com/ad.js" type="text/html" width="300" height="250">
+    <!-- <object data="http://advertiser3.com/ad.swf" type="application/x-shockwave-flash" width="300" height="250"> -->
       <param name="movie" value="http://advertiser3.com/ad.swf" />
       <param name="allowScriptAccess" value="always" />
       <param name="wmode" value="transparent" />
       <p>Your browser does not support the <code>object</code> tag.</p>
     </object>
+    
     <h2>Ad 5</h2>
     <a href="http://advertiser.com">
       <img src="http://advertiser.com/ad.jpg" alt="Advertisement" width="300" height="250">
     </a>
+    
     <h2>Ad 6</h2>
     <script type="text/javascript">
       // JavaScript code to display ad
@@ -73,6 +80,16 @@
       integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
       crossorigin="anonymous">
     </script>
+
+    <script type="text/javascript" src="http://advertiser2.com/ad.js"></script>
+    <h2>Ad 10 with flash inside object</h2>
+    <object data="http://advertiser3.com/ad.swf" type="application/x-shockwave-flash" width="300" height="250">
+      <param name="movie" value="http://advertiser3.com/ad.swf" />
+      <param name="allowScriptAccess" value="always" />
+      <param name="wmode" value="transparent" />
+      <p>Your browser does not support the <code>object</code> tag.</p>
+    </object>
+
     <!-- Main content of the website -->
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel lacinia velit. Proin et sapien magna. Integer pellentesque eros quis leo ullamcorper aliquam. Maecenas rhoncus tempor est, vel placerat dolor tempor vel. Aliquam erat volutpat. Aliquam vel velit vel neque rhoncus commodo non vel enim.
     </p>
